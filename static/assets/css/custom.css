@@ -3,3 +3,6 @@
 body #header {padding-top: 11em}
 #header header {padding-bottom: 0px}
 #header img {width: 50px; color: white; z-index:1000}
+
+.inner.gallery h1 {color: white}
+.inner.gallery h1:hover {color: black}
