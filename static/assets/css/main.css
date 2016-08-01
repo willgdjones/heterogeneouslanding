@@ -1384,18 +1384,12 @@
 	}
 
 	a {
-		-moz-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		-webkit-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		-ms-transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		transition: border-color 0.35s ease-in-out, color 0.35s ease-in-out;
-		color: #35b88f;
-		text-shadow: 0 0 0.5px rgba(53, 184, 143, 0.25);
+		color: white;
 		text-decoration: none;
-		border-bottom: dotted 1px rgba(53, 184, 143, 0.5);
 	}
 
 		a:hover {
-			border-bottom-color: rgba(53, 184, 143, 0);
+            color: black
 		}
 
 	sub {
@@ -1771,7 +1765,7 @@
 			top: -9em;
 			left: 50%;
 			height: 9em;
-			border-left: solid 1px #fff;
+			/*border-left: solid 1px #fff;*/
 		}
 
 		.box:before {
@@ -1870,7 +1864,7 @@
 					top: 0;
 					left: 50%;
 					height: 100%;
-					border-left: solid 1px #fff;
+					/*border-left: solid 1px #fff;*/
 				}
 
 				.box.style2 .inner .row {
@@ -1979,7 +1973,7 @@
 				bottom: -9em;
 				left: 50%;
 				height: 9em;
-				border-left: solid 1px #fff;
+				/*border-left: solid 1px #fff;*/
 			}
 
 			#header footer:before {
@@ -2057,7 +2051,7 @@
 			top: -4.5em;
 			left: 50%;
 			height: 4.5em;
-			border-left: solid 1px #fff;
+			/*border-left: solid 1px #fff;*/
 		}
 
 		#footer a {
@@ -2067,9 +2061,7 @@
 		}
 
 			#footer a:hover {
-				color: #35b88f;
-				text-shadow: 0 0 0.5px rgba(69, 200, 159, 0.25);
-				border-bottom-color: rgba(53, 184, 143, 0.5);
+				color: black;
 			}
 
 		#footer .icons {
@@ -2532,3 +2524,6 @@
 			}
 
 	}
+
+    .hidden {display: none;}
+    .black {color: black;}

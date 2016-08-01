@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/6.2.3/foundation.min.css">
 		<link rel="stylesheet" href="static/assets/css/main.css" />
 		<link rel="stylesheet" href="static/assets/css/custom.css" />
+		<link rel="stylesheet" href="static/assets/css/team.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="static/assets/css/ie8.css" /><![endif]-->
 	</head>
 	<body>
@@ -25,81 +26,67 @@
             <div class="large-2 columns"></div>
         </nav>
 		<!-- Header -->
-			<section id="header">
-				<header>
-          <img src="static/images/thumbs/hexagon.png">
-					<h1>Heterogeneous</h1>
-					<p>Next Generation Drug Development</p>
-				</header>
-				<footer>
-					<!--<a class="button style2 scrolly-middle">Scroll down</a>-->
-				</footer>
-			</section>
-
-		<!-- Banner -->
-			<section id="banner">
-				<header>
-					<h2>A drug testing platform sensitive to you.</h2>
-				</header>
-				<p>Heterogeneous uses state of the art biological methods to help drug companies better stratify their patients.</p>
-
-				<footer>
-					<a class="button style2 scrolly">Find out more</a>
-				</footer>
-			</section>
-
 		<!-- Feature 1 -->
-			<article id="first" class="container box style1 right">
-				<a href="#" class="image fit"><img src="static/images/pic01.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-            <h2>Something important here</h2>
-					</header>
-					<p>Short and snappy</p>
-				</div>
-			</article>
 
-		<!-- Feature 2 -->
-			<article class="container box style1 left">
-				<a href="#" class="image fit"><img src="static/images/pic02.jpg" alt="" /></a>
-				<div class="inner">
-					<header>
-						<h2>Another feature here.</h2>
-					</header>
-					<p>Short and snappy.</p>
-				</div>
-			</article>
 
 		<!-- Portfolio -->
 			<article class="container box style2">
+				<header>
+					<h2>Who we are</h2>
+          <p>We are a team of PhD students at the Genome Campus in Cambridge looking to disrupt an exciting, growing, global industry. We are always looking for interested members to join, specifically in operations.</p>
+				</header>
+				<div class="inner gallery">
+					<div class="row 0%">
+                        <div class="3u 12u(mobile)">
+                            <img class="char" src="static/images/thumbs/charlotte_headshot_bw.png"/>
+                            <h1 class="char" id="char_name">Charlotte Guzzo</h1>
+                        </div>
+                        <div class="3u 12u(mobile)">
+                            <img class="pat" src="static/images/thumbs/patrick_headshot_bw.png"/>
+                            <h1 class="pat" id="pat_name">Patrick Short</h1>
+                        </div>
+                        <div class="3u 12u(mobile)">
+                            <img class="will" src="static/images/thumbs/will_headshot.png"/>
+                            <h1 class="will" id="will_name">William Jones</h1>
+                        </div>
+                        <div class="3u 12u(mobile)">
+                            <img class="open" src="static/images/thumbs/empty.png"/>
+                            <h1 class="open" id="open_name"> You?</h1>
+                        </div>
+                    </div>
+					<!--<div class="row 25%">-->
+            <!--<div class="3u 12u(mobile)"><a href="static/images/fulls/05.jpg" class="image fit"><img src="static/images/thumbs/05.jpg" alt="" title="Cherish" /></a></div>-->
+						<!--<div class="3u 12u(mobile)"><a href="static/images/fulls/06.jpg" class="image fit"><img src="static/images/thumbs/06.jpg" alt="" title="Different." /></a></div>-->
+						<!--<div class="3u 12u(mobile)"><a href="static/images/fulls/07.jpg" class="image fit"><img src="static/images/thumbs/07.jpg" alt="" title="History was made here" /></a></div>-->
+            <!--<div class="3u 12u(mobile)"><a href="static/images/fulls/08.jpg" class="image fit"><img src="static/images/thumbs/08.jpg" alt="" title="People come and go and walk away" /></a></div>-->
+					<!--</div>-->
+				</div>
 			</article>
 
 		<!-- Contact -->
-			<article class="container box style3">
-				<header>
-					<h2>Get in touch</h2>
-					<p>Write us a message and we'll add you to our mailing list and get back to you as soon as possible.</p>
-				</header>
-				<form method="post" action="https://formspree.io/williamgdjones@gmail.com">
-					<div class="row 50%">
-						<div class="6u 12u$(mobile)"><input type="text" class="text" name="name" placeholder="Name" /></div>
-						<div class="6u$ 12u$(mobile)"><input type="text" class="text" name="email" placeholder="Email" /></div>
-						<div class="12u$">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-						<div class="12u$">
-							<ul class="actions">
-								<li><input type="submit" value="Send Message" /></li>
-							</ul>
-						</div>
-					</div>
-				</form>
-			</article>
+            <article class="container box style3 hidden" id="pat_bio"> 
+                <header> <h2>Patrick Short</h2>
+                    <p>Bio of Pat</p>
+                </header>
+            </article>
+            <article class="container box style3 hidden" id="char_bio"> 
+                <header> <h2>Charlotte Guzzo</h2>
+                    <p>Bio of Charlotte</p>
+                </header>
+            </article>
+            <article class="container box style3 hidden" id="will_bio"> 
+                <header> <h2>William Jones</h2>
+                    <p>Bio of Will</p>
+                </header>
+            </article>
+            <article class="container box style3 hidden" id="open_bio"> 
+                <header> <h2>Open Position</h2>
+                    <p>Open position advert</p>
+                </header>
+            </article>
 
-        
-            <!--<article class="container box style3">-->
-                <!--<header>-->
-                    <!--<h2>Generic Box</h2>-->
+<!--            <article class="container box style3"> -->
+                <!--<header> <h2>Generic Box</h2>-->
                     <!--<p>Just a generic box. Nothing to see here.</p>-->
                 <!--</header>-->
                 <!--<section>-->
@@ -135,7 +122,6 @@
                     <!--tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices-->
                     <!--posuere cubilia.</p>-->
                 <!--</section>-->
-                <!--<section>-->
                     <!--<header>-->
                         <!--<h3>Unordered List</h3>-->
                     <!--</header>-->
@@ -276,6 +262,37 @@
 			<script src="static/assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="static/assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="static/assets/js/main.js"></script>
+            <script type="text/javascript">
+$(".char").click(function() {
+    $("h1.black").removeClass("black");
+    $("article.active").addClass("hidden");
+    $("#char_bio").removeClass("hidden");
+    $("#char_bio").addClass("active");
+    $("#char_name").addClass("black")
+})
+$(".will").click(function() {
+    $("h1.black").removeClass("black");
+    $("article.active").addClass("hidden");
+    $("#will_bio").removeClass("hidden");
+    $("#will_bio").addClass("active");
+    $("#will_name").addClass("black")
+})
+$(".pat").click(function() {
+    $("h1.black").removeClass("black");
+    $("article.active").addClass("hidden");
+    $("#pat_bio").removeClass("hidden");
+    $("#pat_bio").addClass("active");
+    $("#pat_name").addClass("black")
+})
+$(".open").click(function() {
+    $("h1.black").removeClass("black");
+    $("article.active").addClass("hidden");
+    $("#open_bio").removeClass("hidden");
+    $("#open_bio").addClass("active");
+    $("#open_name").addClass("black")
+})
+
+            </script>
 
 	</body>
 </html>

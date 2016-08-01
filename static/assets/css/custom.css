@@ -4,5 +4,13 @@ body #header {padding-top: 11em}
 #header header {padding-bottom: 0px}
 #header img {width: 50px; color: white; z-index:1000}
 
+.hidden {display: none !important}
+.black {color: black !important}
+
 .inner.gallery h1 {color: white}
 .inner.gallery h1:hover {color: black}
+
+.row {margin: auto; color: white; font-weight: bold;}
+.columns:hover {color: black}
+
+
